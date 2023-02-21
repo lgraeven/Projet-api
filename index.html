@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>generator-api</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="container">
+    <nav>
+            <ul class="nav-contact"><a href="#">Contact</a></ul>
+            <ul class="nav-logo"> <img src="./img/logo_transparent.png" width="10%" alt="logo-app"></ul>
+            <ul class="nav-propos"><a href="#">A propos</a></ul>
+    </nav>
+    <article>
+        <header>
+            <h1>Programme sportif</h1>
+            <p>Générer un programme personnel dès maintenant !</p>
+        </header>
+        <form>
+            <label for="objectif">Quelle est l'objectif visé ?</label>
+            <input type="text" required placeholder="prise de masse, perte de poids, maintiens de la condition physique"
+                id="objectif" />
+            <label for="nbr">A quelle fréquence comptez-vous vous entrainer ?</label>
+            <input type="number" placeholder="1 à 7 séances par semaine" id="nbr" />
+            <label for="endroit">Où vous entrainez-vous ?</label>
+            <input type="text" placeholder="salle de sport, maison" id="endroit" />
+
+            <button>Conception du programme</button>
+        </form>
+        <footer>Remplissez et soumettez le formulaire</footer>
+    </article>
+    <script src="./src/app.ts"></script>
+</body>
+
+</html>
